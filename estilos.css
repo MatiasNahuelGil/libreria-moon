@@ -131,9 +131,7 @@ body{
     border: 2px solid black;
 }
 
-/* .contenedor-servicio img{
-    width: 40%;
-} */
+
 
 .checklist-servicio{
     width: 100%;
@@ -210,7 +208,7 @@ body{
 .contenedor-imagen img {
     width: 100%;
     height: auto;
-    display: block;
+    
     border-radius: 8px; 
 }
 
@@ -351,6 +349,10 @@ footer{
     color:var(--secondary-color);
 }
 
+@media (max-width: 850px){
+   
+}
+
 @media screen and (max-width: 800px){
     .menu-navegacion{
         width: 50vw;
@@ -359,22 +361,23 @@ footer{
     .titulo{
         font-size: 40px;
     }
-
-    .contenedor-servicio img{
-        width: 80%;
-        margin-bottom: 40px;
-    }
-    
+ 
     .checklist-servicio{
-        width: 80%;
+        flex-direction: column;
+        
     }
+    .contenedor-galeria{
+        flex-direction: column;
+    }
+   
+    
+    
+    
 
-    .service{
-        margin-bottom: 30px;
-    }
+    
 
     .img-galeria{
-        width: 45%;
+        width: 100%;
     }
     
     .agregarImagen{
